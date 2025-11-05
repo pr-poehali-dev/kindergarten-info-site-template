@@ -212,6 +212,109 @@ const Index = () => {
         </div>
       </section>
 
+      <section id="partnership" className="py-16 px-6">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold font-heading text-center mb-12 text-primary">Социальное партнёрство</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Card className="hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-secondary/10 p-3 rounded-full flex-shrink-0">
+                    <Icon name="Building2" size={32} className="text-secondary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-lg mb-2">Образовательные учреждения</h3>
+                    <p className="text-muted-foreground text-sm">
+                      Сотрудничество со школами и центрами развития для преемственности образования
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-secondary/10 p-3 rounded-full flex-shrink-0">
+                    <Icon name="Library" size={32} className="text-secondary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-lg mb-2">Библиотеки</h3>
+                    <p className="text-muted-foreground text-sm">
+                      Совместные мероприятия и экскурсии для развития любви к чтению
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-secondary/10 p-3 rounded-full flex-shrink-0">
+                    <Icon name="Heart" size={32} className="text-secondary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-lg mb-2">Медицинские учреждения</h3>
+                    <p className="text-muted-foreground text-sm">
+                      Взаимодействие с поликлиниками для здоровья детей
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-secondary/10 p-3 rounded-full flex-shrink-0">
+                    <Icon name="Users" size={32} className="text-secondary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-lg mb-2">Родительское сообщество</h3>
+                    <p className="text-muted-foreground text-sm">
+                      Активное участие родителей в жизни группы и садика
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-secondary/10 p-3 rounded-full flex-shrink-0">
+                    <Icon name="Sparkles" size={32} className="text-secondary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-lg mb-2">Культурные центры</h3>
+                    <p className="text-muted-foreground text-sm">
+                      Посещение театров, музеев и выставок для культурного развития
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-secondary/10 p-3 rounded-full flex-shrink-0">
+                    <Icon name="Shield" size={32} className="text-secondary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-lg mb-2">Служба безопасности</h3>
+                    <p className="text-muted-foreground text-sm">
+                      Уроки безопасности с представителями МЧС и ГИБДД
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section id="contact" className="py-16 px-6">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-4xl font-bold font-heading text-center mb-12 text-primary">Контактная информация</h2>
