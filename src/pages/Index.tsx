@@ -54,6 +54,24 @@ const Index = () => {
                 Для меня каждый ребёнок — это уникальная личность с огромным потенциалом. Моя миссия — создать безопасную, 
                 тёплую и развивающую среду, где дети учатся, играют и растут.
               </p>
+              
+              <div className="bg-muted/50 rounded-lg p-6 mb-6">
+                <h3 className="font-heading font-bold text-xl mb-4 text-primary flex items-center gap-2">
+                  <Icon name="GraduationCap" size={24} />
+                  Образование
+                </h3>
+                <div className="space-y-3">
+                  <div className="flex items-start gap-3">
+                    <Icon name="BookOpen" size={20} className="text-secondary mt-1 flex-shrink-0" />
+                    <p className="text-muted-foreground">ФГБОУ ВО "Уральский государственный педагогический университет"</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Icon name="BookOpen" size={20} className="text-secondary mt-1 flex-shrink-0" />
+                    <p className="text-muted-foreground">Российский государственный профессионально-педагогический университет</p>
+                  </div>
+                </div>
+              </div>
+              
               <div className="flex gap-4 mt-6">
                 <Card className="flex-1">
                   <CardContent className="p-6 text-center">
