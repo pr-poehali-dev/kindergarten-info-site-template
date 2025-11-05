@@ -76,7 +76,7 @@ const Index = () => {
       <section id="program" className="py-16 px-6 bg-muted/50">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold font-heading text-center mb-12 text-primary">Образовательная программа</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 rounded-0 py-0 mx-0 px-[7px]">
             <Card className="hover:shadow-xl transition-shadow">
               <CardContent className="p-8">
                 <Icon name="BookOpen" size={48} className="mb-4 text-secondary" />
