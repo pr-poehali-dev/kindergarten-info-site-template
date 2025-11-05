@@ -117,15 +117,17 @@ const Index = () => {
               </CardContent>
             </Card>
             
-            <Card className="hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
-                <Icon name="Users" size={48} className="mb-4 text-secondary" />
-                <h3 className="text-2xl font-bold font-heading mb-3">Социализация</h3>
-                <p className="text-muted-foreground">
-                  Учим дружить, общаться, работать в команде и решать конфликты.
-                </p>
-              </CardContent>
-            </Card>
+            <div className="md:col-start-2">
+              <Card className="hover:shadow-xl transition-shadow">
+                <CardContent className="p-8">
+                  <Icon name="Users" size={48} className="mb-4 text-secondary" />
+                  <h3 className="text-2xl font-bold font-heading mb-3">Социализация</h3>
+                  <p className="text-muted-foreground">
+                    Учим дружить, общаться, работать в команде и решать конфликты.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
