@@ -109,16 +109,6 @@ const Index = () => {
             
             <Card className="hover:shadow-xl transition-shadow">
               <CardContent className="p-8">
-                <Icon name="Music" size={48} className="mb-4 text-secondary" />
-                <h3 className="text-2xl font-bold font-heading mb-3">Музыка</h3>
-                <p className="text-muted-foreground">
-                  Пение, ритмика, знакомство с музыкальными инструментами.
-                </p>
-              </CardContent>
-            </Card>
-            
-            <Card className="hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
                 <Icon name="Dumbbell" size={48} className="mb-4 text-secondary" />
                 <h3 className="text-2xl font-bold font-heading mb-3">Физкультура</h3>
                 <p className="text-muted-foreground">
