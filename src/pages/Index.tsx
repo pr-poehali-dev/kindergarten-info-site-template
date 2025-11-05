@@ -168,7 +168,14 @@ const Index = () => {
       <section id="gallery" className="py-16 px-6 bg-muted/50">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold font-heading text-center mb-12 text-primary">Наша жизнь в саду</h2>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+              <img 
+                src="https://cdn.poehali.dev/files/ddf8bc21-3cdf-4dc9-b3e6-6c6205c832e8.png" 
+                alt="Наша группа" 
+                className="w-full h-64 object-cover hover:scale-105 transition-transform"
+              />
+            </div>
             <div className="overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
               <img 
                 src="https://cdn.poehali.dev/projects/9621ca31-1d25-4f28-a3ff-a449a594c4ce/files/fa2a29fe-ff6d-43c1-8157-5add06a48bbe.jpg" 
