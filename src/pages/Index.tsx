@@ -223,9 +223,7 @@ const Index = () => {
                     <Icon name="Mail" size={24} className="text-primary mt-1" />
                     <div>
                       <p className="font-semibold mb-1">Электронная почта</p>
-                      <a href="mailto:elena.petrova@kindergarten.ru" className="text-muted-foreground hover:text-primary">
-                        elena.petrova@kindergarten.ru
-                      </a>
+                      <a href="mailto:elena.petrova@kindergarten.ru" className="text-muted-foreground hover:text-primary">lari890i@mail.ru</a>
                     </div>
                   </div>
                   
