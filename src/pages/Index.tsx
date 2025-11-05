@@ -23,7 +23,7 @@ const Index = () => {
 
       <section className="relative h-[500px] flex items-center justify-center overflow-hidden">
         <img 
-          src="https://cdn.poehali.dev/projects/9621ca31-1d25-4f28-a3ff-a449a594c4ce/files/fa2a29fe-ff6d-43c1-8157-5add06a48bbe.jpg" 
+          src="https://cdn.poehali.dev/files/3e230183-2f58-4e38-a963-be0300c0b76c.png" 
           alt="Детский сад" 
           className="absolute inset-0 w-full h-full object-cover"
         />
