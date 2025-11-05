@@ -185,8 +185,8 @@ const Index = () => {
             </div>
             <div className="overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
               <img 
-                src="https://cdn.poehali.dev/projects/9621ca31-1d25-4f28-a3ff-a449a594c4ce/files/fc245c15-d06f-4017-a86d-91329529896b.jpg" 
-                alt="Воспитатель с детьми" 
+                src="https://cdn.poehali.dev/files/a8d03dfa-d517-4f33-a1bd-b982fbc06da3.png" 
+                alt="Творческие работы детей" 
                 className="w-full h-64 object-cover hover:scale-105 transition-transform"
               />
             </div>
