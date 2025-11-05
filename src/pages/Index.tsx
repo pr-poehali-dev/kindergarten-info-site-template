@@ -58,7 +58,7 @@ const Index = () => {
               <div className="bg-muted/50 rounded-lg p-6 mb-6">
                 <h3 className="font-heading font-bold text-xl mb-4 text-primary flex items-center gap-2">
                   <Icon name="GraduationCap" size={24} />
-                  Образование
+                  Высшее образование
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
